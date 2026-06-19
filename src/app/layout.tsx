@@ -17,6 +17,7 @@ const paperlogy = localFont({
     { path: '../../public/fonts/Paperlogy-9Black.ttf', weight: '900' },
   ],
   variable: '--font-paperlogy',
+  display: 'swap', 
 });
 
 export const metadata: Metadata = {
