@@ -22,9 +22,9 @@ const works = [
   {
     minTitle: 'Wealthguide',
     title : '웰스가이드',
-    duration: '2026.01~2023.03 / 3개월',
-    role: 'UI Development (50%)',
-    tech: 'VS Code, HTML5, CSS3, JavaScript, Git',
+    duration: '2020.09 ~ 2025.05 ',
+    role: 'UI Development (구축 / 운영·유지보수 100%)',
+    tech: 'VS Code, HTML5, CSS3, JavaScript',
     link: 'https://wealthguide.co.kr',
   },{
     minTitle: 'Jeongwon E-shop.',
