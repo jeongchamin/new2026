@@ -46,8 +46,8 @@ export default function Hero(){
             ) : (
                 <>
                     <h1 className="mt-8 sm:mt-[120px] flex flex-col">
-                        <span className="text-black text-[22vw] leading-[22vw] font-extrabold sm:text-[120px]/[128px]">오늘의<br/>날씨는</span>
-                        <span className="text-black text-[22vw] leading-[22vw] sm:text-[120px]/[128px] font-bold mt-10">[ <strong>{getWeatherDescription(weather.weather[0].id)}</strong> ]</span>
+                        <span className="text-black text-[20vw] leading-[20vw] font-extrabold sm:text-[120px]/[128px]">오늘의<br/>날씨는</span>
+                        <span className="text-black text-[20vw] leading-[20vw] sm:text-[120px]/[128px] font-bold mt-10">[ <strong>{getWeatherDescription(weather.weather[0].id)}</strong> ]</span>
                     </h1>
 
                     <div className="mt-16">
