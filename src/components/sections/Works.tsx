@@ -17,7 +17,7 @@ const works = [
     duration: '2026.06',
     role: 'UI Development (100%)',
     tech: 'Next.js, Tailwind CSS, TypeScript, GitHub',
-    link: '#',
+    link: 'https://whather.vercel.app',
   },
   {
     minTitle: 'Wealthguide',
