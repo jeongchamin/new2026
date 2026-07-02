@@ -97,7 +97,10 @@ export default function About() {
 
   return (
     <section id="about" className="h-full bg-gradient-to-b from-[#5055FA] to-[#1F488C] pt-15 pb-20 sm:py-[120px] flex flex-col items-center">
-      <h2 className="text-white text-[18vw] sm:text-[80px] font-extrabold">접니다.</h2>
+      <h2 className="text-white text-[18vw] sm:text-[80px] font-extrabold">
+        <span className='hidden md:inline'>접니다.</span>
+        <span className='md:hidden'>Profile</span>
+      </h2>
 
       <div className="bg-white rounded-4xl py-10 w-[90%] sm:w-[500px] text-center mt-8">
         <p className="text-black text-3xl font-bold mt-5">처음뵙겠습니다<br />자주뵙고싶네요</p>
@@ -178,7 +181,7 @@ export default function About() {
               Original
             </button>
             <p className="text-black text-sm relative text-left break-keep">
-              이럴 시간이 없다. 빠르게 면상을 확인한다.
+              이럴 시간이 없다. 빠르게 얼굴을 확인한다.
               <span className="text-[#6D6C76] text-xs block mt-1">
                 (꾸욱~ 길게 누르고 있으면 원본을 확인하실 수 있습니다)
               </span>

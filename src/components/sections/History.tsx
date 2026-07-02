@@ -115,7 +115,10 @@ export default function History(){
     
     return (
         <section id="history" className="h-full bg-gradient-to-b from-[#D3C0FF] to-[#A4DEF1] pt-15 pb-20 sm:py-[120px] flex flex-col items-center">
-            <h2 className="text-[#5426C5] text-[18vw] sm:text-[80px] font-extrabold">저구요,</h2>
+            <h2 className="text-[#5426C5] text-[18vw] sm:text-[80px] font-extrabold">
+                <span className='hidden md:inline'>저구요,</span>
+                <span className='md:hidden'>History</span>
+            </h2>
 
             <div className="bg-white rounded-4xl py-8 w-[90%] text-center mt-10 sm:w-[500px]">
                 <p className="text-[#363533] text-3xl font-bold mt-5">생각하는 것보다<br/>가까이 있습니다</p>

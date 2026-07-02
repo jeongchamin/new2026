@@ -134,7 +134,10 @@ export default function Works() {
 
   return (
     <section id="works" className=" bg-white pt-15 pb-20 sm:py-[120px] ">
-      <h2 className="text-black text-[18vw] sm:text-[80px] font-extrabold text-center">저에요.</h2>
+      <h2 className="text-black text-[18vw] sm:text-[80px] font-extrabold text-center">
+        <span className='hidden md:inline'>저에요.</span>
+        <span className='md:hidden'>Works</span>
+      </h2>
 
       <div className='relative'>
         {showHint && (

@@ -50,7 +50,10 @@ export default function Skills(){
             style={{backgroundImage:'url(/images/bg_opacity_purple.png)'}}
             >
 
-              <h2 className="text-white text-[18vw] sm:text-[80px] font-extrabold">살펴보고</h2>
+              <h2 className="text-white text-[18vw] sm:text-[80px] font-extrabold">
+                <span className='hidden md:inline'>살펴보고</span>
+                <span className='md:hidden'>Skills</span>
+              </h2>
 
               <span className="absolute z-1 w-[300px] h-[200px] hidden sm:block top-18 left-1/2 -translate-x-[130%]"
               style={{backgroundImage:'url(/images/img_conan.png)'}}></span>
